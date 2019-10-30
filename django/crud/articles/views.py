@@ -21,7 +21,6 @@ def create(request): # POST 요청을 받음
 
     article = Article.objects.create(title=title, content = content)
     
-
     return redirect(f'/articles/{article.pk}/')
 
 
