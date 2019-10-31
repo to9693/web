@@ -4,7 +4,7 @@ from django.db import models
 class Student(models.Model):
      # id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=10)
-    age = models.TextField()
+    age = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add=True) # 데이터가 생성된 시간을 자동으로 저장
     updated_at = models.DateTimeField(auto_now=True) # auto_now_add = 생성될때 한번만 , auto_now = 수정될때마다 현재 시간 기록
 

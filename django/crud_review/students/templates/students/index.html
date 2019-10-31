@@ -4,12 +4,13 @@
 
 <h1>Students Index</h1>
 
-<a href="/students/new/">New student</a>
+<a href="{% url 'students:new' %}">New student</a>
 
 <ul>
     {% for student in students %}
     <li>
-        <a href='/students/{{student.pk}}/'>{{student}}  </a>
+        <a href="{% url 'students:detail' student.pk %}"> {{ student.name }}</a>
+      
     </li>
     {% endfor %}
 

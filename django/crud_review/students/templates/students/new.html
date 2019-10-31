@@ -13,12 +13,15 @@
 <!-- 1. GET의 의미상 맞지 않다. -->
 <!-- 2. 데이터가 URL에 노출되면 안되기 때문에(보안) -->
 <!-- 3. 최소한의 신원확인 (csrf) -->
-<form action="/students/create/" method = 'GET'>
+<!-- {% url 'students:create' %} -->
+<!-- acttion에 값이 없으면 자신 페이지로 보냄 -->
+<form action = "{% url 'students:new' %}" method = 'POST'>
     <!-- 이유 3 -->
+    {% csrf_token %}
     <label for="">name:</label>
     <input type="text" name = 'name'>
     <label for="">age:</label>
-    <input type="text" name = 'age'>
+    <input type="number" name = 'age'>
     <input type="submit">
 </form>
     

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block body%}
+
+<h1>Student Detail</h1>
+
+<h3>{{ student.name }}</h3>
+
+<h4>{{ student.age }}</h4>
+
+<h4>{{ student.created_at }}</h4>
+
+<h4>{{ student.updated }}</h4>
+
+<a href="{% url 'students:index' %}">List</a>
+
+
+<a href="{% url 'students:edit' student.pk %}">Edit</a>
+
+<!-- a태그는 post 요청을 보낼 수 없다. 그렇다면 form tag! -->
+
+<form action="{% url 'students:delete' student.pk %}" method = 'POST'>
+    {% csrf_token %}
+    <input type="submit" value = 'Delete'>
+
+</form>
+
+
+{% endblock %}
