@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Edit Movie</h1>
+<form action="/movies/{{ movie.pk}}/update" method = 'POST'>
+
+    {% csrf_token %}
+    <label for="">제목:</label>
+    <input type="text" name = 'title' value ='{{movie.title}}'>
+    <label for="">영어 제목:</label>
+    <input type="text" name = 'title_en' value = '{{movie.title_en}}'>
+    <label for="">관람객 수:</label>
+    <input type="number" name = 'audience' value = '{{movie.audience}}'>
+    <label for="">개봉일:</label>
+    <input type="text" name = 'open_date' value = '{{movie.open_date}}'>
+    <label for="">장르:</label>
+    <input type="text" name = 'genre' value = '{{movie.genre}}'>
+    <label for="">관람 등급:</label>
+    <input type="text" name = 'watch_grade' value = '{{movie.watch_grade}}'>
+    <label for="">평점:</label>
+    <input type="number" name = 'score' value = '{{movie.score}}'>
+    <label for="">포스터:</label>
+    <input type="text" name = 'poster_url' value = '{{movie.poster_url}}'>
+    <label for="">줄거리:</label>
+    <textarea name="description" id="" cols="30" rows="10" value = '{{movie.description}}'>{{movie.description}}</textarea>
+    <input type="submit">
+
+
+</form>
+
+{% endblock%}

@@ -1,0 +1,16 @@
+{% extneds 'base.html' %}
+
+{% block body %}
+
+<h1>Movies list</h1>
+
+<ul>
+    {% for movie in movies %}
+    <li>
+        {{ movie.title}}
+        {{ movie.score}}
+    </li>
+</ul>
+
+
+{% endblock%}

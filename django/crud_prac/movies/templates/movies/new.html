@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>New Movie</h1>
+
+<form action="{% url 'movies:create'%}" method="POST">
+    {% csrf_token%}
+    <label for="">제목:</label>
+    <input type="text" name = 'title'>
+    <label for="">영어 제목:</label>
+    <input type="text" name = 'title_en'>
+    <label for="">관람객 수:</label>
+    <input type="number" name = 'audience'>
+    <label for="">개봉일:</label>
+    <input type="text" name = 'open_date'>
+    <label for="">장르:</label>
+    <input type="text" name = 'genre'>
+    <label for="">관람 등급:</label>
+    <input type="text" name = 'watch_grade'>
+    <label for="">평점:</label>
+    <input type="number" name = 'score'>
+    <label for="">포스터:</label>
+    <input type="text" name = 'poster_url'>
+    <label for="">줄거리:</label>
+    <textarea name="description" id="" cols="30" rows="10"></textarea>
+    <input type="submit">
+
+</form>
+
+{% endblock %}
