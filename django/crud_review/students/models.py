@@ -8,8 +8,8 @@ class Student(models.Model):
     created_at = models.DateTimeField(auto_now_add=True) # 데이터가 생성된 시간을 자동으로 저장
     updated_at = models.DateTimeField(auto_now=True) # auto_now_add = 생성될때 한번만 , auto_now = 수정될때마다 현재 시간 기록
 
-    def __str__(self): # 매직 메서드 (특수 목적)
-        return f'{self.id} - {self.name}: {self.age}'
+    #def __str__(self): # 매직 메서드 (특수 목적)
+        #return f'{self.id} - {self.name}: {self.age}'
     # str(), print() 호출 시 출력되는 함수
 
 # 1. models.py에 모델 생성
@@ -57,3 +57,33 @@ class Student(models.Model):
 # 1. 데이터 가져오기 - a = Article.objects.get(id=1)
 # 2. 삭제하기 (DB에 반영)- a.delete()
 # a = Article.objects.get(id=1) #-> 에러 발생
+
+
+# Student : Comment = 1: N
+class Comment(models.Model):
+    content = models.CharField(max_length = 200)
+    created_at = models.DateTimeField(auto_now_add=True) # 데이터가 생성된 시간을 자동으로 저장
+    updated_at = models.DateTimeField(auto_now=True) # auto_now_add = 생성될때 한번만 , auto_now = 수정될때마다 현재 시간 기록
+    student = models.ForeignKey(Student, on_delete=models.CASCADE)
+    # CASCADE : 1:N에서 1이 삭제되면 N도 삭제
+    # PROTECT : 1을 삭제하려 할 때, N이 있으면 삭제 불가능
+    # SET_NULL : 1이 삭제가 되면, N의 컬럼에 NULL로 설정
+    # DO_NOTHING : 아무것도 하지 않음
+
+    # 1. 1번 학생(1) 가져오기
+    # student = Student.objects.get(pk = 1)
+
+    # 2. 댓글(N) 생성
+    # comment = Coment()
+    # comment.content = 'First Comment'
+    # comment.student = student
+    # (comment.student_id = student.pk)
+    # comment.save()
+
+    # 3. 댓글(N)로 부터 학생(1) 불러오기
+    # comment.student #=> student 인스턴스 자체
+    # comment.student.name #=> 학생 이름
+    # comment.studnet.age #=> 학생 나이
+
+    # 4. 학생(1)으로부터 댓글(N) 불러오기
+    # student.comment_set.all() #=> comment QuerySet
