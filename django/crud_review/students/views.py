@@ -17,22 +17,21 @@ def index(request):
 
 def new(request):
     if request.method == 'POST':  #=> 'GET', 'POST'
-        # 넘어온 데이터 받기
-        # 이유 2번 - GET(URL), POST(http body)
-        # 1. POST 요청으로 넘어온 데이터 가져오기 new.html에서 넘어옴 
+        # student를 생성함 (def create)
+        # 1. POST 요청으로 넘어온 데이터 가져오기
         name = request.POST.get('name')
         age = request.POST.get('age')
+        image = request.Files.get('image')
 
-        # 2. DB에 저장!
+        # 2. Model 클래스 사용해서 DB에 저장!
 
         # 다른 방법student = Student.objects.create(name=name, age = age)
-        student = Student(name= name, age =age)
+        student = Student(name= name, age =age, image = image)
         student.save()
 
         # 3.생성된 학생의 상세 정보를 보는 페이지로 이동(Detail))
         return redirect('students:detail', student.pk)
 
-            # students를 생성함 
     else:
         # new page를 보여주면 됨 (def new)
         return render(request, 'students/new.html')
@@ -58,38 +57,48 @@ def new(request):
 def detail(request, pk):
     # 1. pk 에 해당하는 student를 DB에서 가져오기
     student = Student.objects.get(pk=pk) # => student 인스턴스
+    # 1-1. student의 comment를 다 가져오기 (2번째 방법)
+    comments = student.comment_set.all()
+    # 1-2. comments의 갯수 가져오기
+    # comments.count()
 
     # 2. context에 저장
     context = {
         'student' : student,
+        'comments' : comments,
     }
     # 3. rnder 하면서 context 넘겨주기
     return render(request, 'students/detail.html', context)
 
 def edit(request, pk):
+    # 1. pk에 해당하는 student를 DB에서 가져오기
     student= Student.objects.get(pk=pk)
     if request.method == 'POST':
         # student를 수정 (def update)
-        
-        student = Student.objects.get(pk=pk)
-
         # 2. POST 요청을 통해 넘어온 데이터 가져오기
+        
         name = request.POST.get('name')
         age = request.POST.get('age')
+        image = request.FILES.get('image')
 
-        # 3. student 인스턴스의 정보를 변경
+        # 3. student 인스턴스의 정보를 변경 & DB에 반영 -> .save()
         student.name = name
         student.age = age
+        if image :
+            student.image = image
         student.save() 
 
+        #4. student 상세 페이지로 이동(Detail)
         return redirect('students:detail', student.pk )
     else:
-        # 수정하는 페이지를 보여줌 (def edit) # 1. pk에 해당하는 학생 DB에서 가져오기
+        # 수정하는 페이지를 보여줌 (def edit) 
+        # 2. context에 저장
         
-
         context = {
             'student' : student,
         }
+        
+        # 3. render하면서 context넘겨주기
         return render(request, 'students/edit.html', context)
    
 

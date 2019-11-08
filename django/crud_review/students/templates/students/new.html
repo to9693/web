@@ -15,13 +15,22 @@
 <!-- 3. 최소한의 신원확인 (csrf) -->
 <!-- {% url 'students:create' %} -->
 <!-- acttion에 값이 없으면 자신 페이지로 보냄 -->
-<form action = "{% url 'students:new' %}" method = 'POST'>
+<form action = "" method = 'POST' enctype="multipart/form-data">
+    <!--  1. application/x-ww-from-urlencoded -->
+    <!-- 문자열만 전송(기본값) -->
+    <!-- 2. multipart/from_data -->
+    <!-- 바이너리(파일 및 이미지)도 전송 가능 -->
+    <!-- 3. text/plain -->
+    <!-- 인코딩 하지 않음 -->
     <!-- 이유 3 -->
     {% csrf_token %}
     <label for="">name:</label>
     <input type="text" name = 'name'>
     <label for="">age:</label>
     <input type="number" name = 'age'>
+    <input type="submit">
+    <label for="">Image:</label>
+    <input type="file" name = 'image' accept = 'image/*'>
     <input type="submit">
 </form>
     

@@ -4,13 +4,17 @@
 
 <h1>Edit Student</h1>
 
-<form action="" method = 'POST'>
+<!-- {# url 'students:update' student.pk #} -->
+
+<form action="" method = 'POST' enctype = 'multipart/form-data'>
     <!-- 이유 3 -->
     {% csrf_token %}
     <label for=""> Name: </label>
     <input type="text" name = 'name' value = '{{ student.name }}'>
-    <label for="">age:</label>
+    <label for="">Age:</label>
     <input type="text" name = 'age' value = '{{ student.age }}'>
+    <label for="">Image: </label>
+    <input type="file" name = 'image' accept = 'image/*'>
     <input type="submit">
 </form>
 
