@@ -7,7 +7,7 @@
 <h3>{{ student.name }}</h3>
 <h4>{{ student.age }}</h4>
 
-{% if student.name %}
+{% if student.image %}
 <img src="{{ student.image.url }}" alt="">
 {% else %}
 <img src="{% static 'hi.jpg' %}" alt="">
@@ -43,7 +43,7 @@
     <li>
         {{ comment.content }}
         <a href="{% url 'students:comments_edit' student.pk comment.pk %}">수정</a>
-        <form action="{% url 'studnet:comments_delete' student.pk comment.pk %}" method = 'POST'>
+        <form action="{% url 'students:comments_delete' student.pk comment.pk %}" method = 'POST'>
             {% csrf_token %}
             <input type="submit" value = '삭제'>
 

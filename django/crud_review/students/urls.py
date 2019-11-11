@@ -37,3 +37,8 @@ urlpatterns= [
 # Django는 PUT/PATCh/DELETE 불가능. 따라서...
 # GET  /studnets/2/edit/ #=> 수정 페이지 보여줌
 # POST /students/2/edit/ #=> 수정 작업 진행
+
+# ex)
+# GET       /user/1 # => user 1번 가져옴
+# PUT      /user/1 # => user 1번 수정
+# DELETE   /user/1 # => user 1번 삭제

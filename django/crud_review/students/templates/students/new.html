@@ -13,7 +13,7 @@
 <!-- 1. GET의 의미상 맞지 않다. -->
 <!-- 2. 데이터가 URL에 노출되면 안되기 때문에(보안) -->
 <!-- 3. 최소한의 신원확인 (csrf) -->
-<!-- {% url 'students:create' %} -->
+<!-- {# url 'students:create' 이 문자는 특별한 주석처리가 필요함 %% 대신 ## #} -->
 <!-- acttion에 값이 없으면 자신 페이지로 보냄 -->
 <form action = "" method = 'POST' enctype="multipart/form-data">
     <!--  1. application/x-ww-from-urlencoded -->

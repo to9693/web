@@ -21,7 +21,7 @@ def new(request):
         # 1. POST 요청으로 넘어온 데이터 가져오기
         name = request.POST.get('name')
         age = request.POST.get('age')
-        image = request.Files.get('image')
+        image = request.FILES.get('image')
 
         # 2. Model 클래스 사용해서 DB에 저장!
 
