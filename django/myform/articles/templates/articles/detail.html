@@ -5,10 +5,21 @@
 <h1>Article Detail</h1>
 
 <p>pk: {{ article.pk }}</p>
+<p>user: {{ article.user.username }}</p>
 <p>title: {{ article.title }}</p>
 <p>content: {{ article.content }}</p>
 <p>created at: {{ article.created_at }}</p>
 <p>updated at: {{ article.updated_at }}</p>
+
+
+<div>
+    <a href="{% url 'articles:index' %}">List</a>
+    {% if user == articles.user %}
+    <a href="{% url 'articles:edit' articles.pk %}">Edit</a>
+    {% endif %}
+
+
+</div>
 
 
 {% endblock %}
