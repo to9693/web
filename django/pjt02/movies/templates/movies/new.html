@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Movie Form</h1>
+
+<form action="" method = 'POST'>
+    {% csrf_token %}
+    <!-- <label for="">Title:</label>
+    <input type="text" name = 'title'>
+    <label for="">Contnet:</label>
+    <textarea name="content" id="" cols="30" rows="10"></textarea> -->
+    
+    {{ moive_form.as_p }} 
+    <input type="submit">
+
+
+
+{% endblock %}

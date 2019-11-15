@@ -1,10 +1,10 @@
 from django import forms
-from .models import Article
+from .models import Movie
 
-class ArticleForm(forms.ModelForm):
+class MovieForm(forms.ModelForm):
     class Meta: # Class에 대한 정보가 담긴 class 
-        model = Article
-        fields = ['title','content',]
+        model = Movie
+        fields = ['title', 'description', 'poster']
 
 
 

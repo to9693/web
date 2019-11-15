@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Movie Detail</h1>
+
+<p>pk: {{ movie.pk }}</p>
+<p>user: {{ movie.user.username }}</p>
+<p>title: {{ movie.title }}</p>
+<p>description: {{ movie.description }}</p>
+<p>poster: {{ movie.poster }}</p>
+<p>created at: {{ movie.created_at }}</p>
+<p>updated at: {{ movie.updated_at }}</p>
+
+
+<div>
+    <a href="{% url 'moive:index' %}">List</a>
+    {% if user == movie.user %}
+    <a href="{% url 'moive:edit' moives.pk %}">Edit</a>
+    {% endif %}
+
+
+</div>
+
+
+{% endblock %}
