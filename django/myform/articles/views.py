@@ -2,10 +2,20 @@ from django.shortcuts import render, redirect
 from .models import Article
 from .forms import ArticleForm
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator
+
 
 # Create your views here.
 def index(request):
-    articles = Article.objects.all()
+    article_list = Article.objects.all()
+    # Pagination
+    # 1. arrticles를 Paginator에 입력
+    paginator = Paginator(article_list,3)
+    # 2. 몇번째 page를 보여줄건지 GET으로 가져옴
+    page = request.GET.get('page')
+    # 3. 해당하는 page의 articles만 뽑기
+    articles = paginator.get_page(page)
+    
     context = {
         'articles' : articles,
     }
@@ -47,8 +57,7 @@ def new(request):
         # 1. 넘어온 데이터를 받기 (title, content)
         article_form = ArticleForm(request.POST)
 
-        # title = request.POST.get('title')
-        # content = request.POST.get('content')
+        
         # 2. 넘어온 데이터 검증(New)
         if article_form.is_valid():
             # 3. 데이터베이스에 Article 만들기! (model.form)
@@ -56,6 +65,7 @@ def new(request):
             # 3-1. user 정보 끼워넣기
             article.user = request.user
             article.save()
+            
             # 4. redicrect -> detail
             return redirect('articles:detail', article.pk)
     else:
@@ -147,3 +157,17 @@ def like(request, pk):
         article.like_users.add(request.user)
 
     return redirect('articles:detail', pk)
+
+
+
+# GET 요청을 받음
+def search(request):
+    # 1. request로부터 검색어 가져오기
+    query = request.GET.get('query') #=> 'asdf'
+    # 2. Article에서 제목에 검색어가 있는지 찾기
+    articles = Article.objects.filter(title_contains = query)
+    # 3. context로 결과값 template에 넘겨주기
+    context = {
+        'articles' : articles,
+    }
+    return render(request, 'articles/search.html', context)
