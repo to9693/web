@@ -15,8 +15,6 @@
 
 <ul>
     {% for article in articles %}
-    <li>{{ article.title }}</li>
-
     <li>
         <a href="{% url 'articles:detail' article.pk%}">
             {{article.title}}
@@ -35,7 +33,7 @@
 
         {% for num_page in articles.paginator.page_range %}
         <li class = 'page-item' {% if num_page == articles.number %}active{% endif %}>
-            <a class = 'page-link' href= '{% url 'articles:index' %}?page= {{ num_page}}'>{{ num_page}}</a>>
+            <a class = 'page-link' href= '{% url 'articles:index' %}?page= {{ num_page}}'>{{ num_page }}</a>
         </li>
         {% endfor %}
 

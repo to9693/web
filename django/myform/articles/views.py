@@ -165,7 +165,7 @@ def search(request):
     # 1. request로부터 검색어 가져오기
     query = request.GET.get('query') #=> 'asdf'
     # 2. Article에서 제목에 검색어가 있는지 찾기
-    articles = Article.objects.filter(title_contains = query)
+    articles = Article.objects.filter(title__contains = query)
     # 3. context로 결과값 template에 넘겨주기
     context = {
         'articles' : articles,
