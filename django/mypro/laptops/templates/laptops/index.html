@@ -4,35 +4,9 @@
 
 <h1>자주 사용하는 프로그램 명을 입력하세요.</h1>
 
-<form action="{% url 'laptops:index' %}" method = 'GET'>
+<form action="{% url 'laptops:search' %}" method = 'GET'>
     <input type="text" name = 'query'>
     <input type="submit" valeu = '프로그램 이름으로 검색하세요!'>
 </form>
-
-<ul>
-    {% for laptop in laptops %}
-    <li>
-        <a href="{% url 'laptops:detail' laptop.pk%}">
-            {{laptop.name}}
-        </a>
-    </li>
-    {% endfor %}
-</ul>
-
-<nav>
-    <ul class = 'pagination'>
-        {% for num_page in laptops.paginator.page_range %}
-        <li class = 'page-item' {% if num_page == laptops.number %}active{% endif %}>
-            <a class = 'page-link' href= '{% url 'laptops:index' %}?page= {{ num_page}}'>{{ num_page }}</a>
-        </li>
-        {% endfor %}
-
-        {% if articles.has_next %}
-        <li class = 'page-item'>
-            <a class = 'page-link' href="{% url 'laptops:index'%}?page={{ laptops.next_page_number }}">Next</a>
-        </li>
-        {% endif %}
-    </ul>
-</nav>
 
 {% endblock %}
