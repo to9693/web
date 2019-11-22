@@ -12,9 +12,9 @@ class Doctor(models.Model):
 class Patient(models.Model):
     name = models.CharField(max_length = 20)
     # doctor = models.ForeignKey(Doctor, on_delete = models.CASCADE)
-    # doctors = models.ManyToManyField(Doctor, through = 'Reservation')
+    # 이걸 사용해야함  doctors = models.ManyToManyField(Doctor, through = 'Reservation')
     doctors = models.ManyToManyField(Doctor, related_name = 'patients') #
 
-# class Reservation(models.Model):
-#     doctor = models.ForeignKey(Doctor, on_delete = models.CASCADE)
-#     patient = models.ForeignKey(Patient, on_delete = models.CASCADE)
+# 이것도 class Reservation(models.Model):
+# 이것도 doctor = models.ForeignKey(Doctor, on_delete = models.CASCADE)
+# 이것도 patient = models.ForeignKey(Patient, on_delete = models.CASCADE)
