@@ -1,5 +1,54 @@
-,name,spec
-0,"potoshop, 포토샵, 포토샾, Potoshop","RTX2080,RTX2070,RTX2060,GTX1080,GTX1070,GTX1660 Ti,GTX1060,GTX1050 Ti,GTX1650,GTX1050"
-0,"after effects, 애프터 이펙트, 에프터 이펙트","16GB, 32GB"
-0,"premiere pro, 프리미어 프로, 프리미어","HD 6000,HD 5500,HD 5300,HD 5000,Iris Plus 655,Iris Plus 650,Iris Plus 640,Iris Plus 645,RTX2070,RTX2060,GTX1080,GTX1070,GTX1660 Ti,GTX1060,GTX1050 Ti,GTX1650,GTX1050,GTX980M,GTX970M"
-0,"illustrator, 일러, 일러스트레이션","HD 6000,HD 5500,HD 5300,HD 5000,HD 4600,Iris Pro 5200,Iris 6100,RTX2080,RTX2070,RTX2060,GTX1080,GTX1070,GTX1660 Ti,GTX1060,GTX1050 Ti,GTX1650,GTX1050,GTX980M,GTX970M,GTX960M,GTX950M,GTX850M,쿼드로"
+,naem,spec
+1,potoshop,RTX2080
+2,potoshop,RTX2070
+3,potoshop,RTX2060
+4,potoshop,GTX1080
+5,potoshop,GTX1070
+6,potoshop,GTX1660 Ti
+7,potoshop,GTX1060
+8,potoshop,GTX1050 Ti
+9,potoshop,GTX1650
+10,potoshop,GTX1050
+11,after effects,16GB
+12,after effects,32GB
+13,premiere pro,HD 6000
+14,premiere pro,HD 5500
+15,premiere pro,HD 5300
+16,premiere pro,HD 5000
+17,premiere pro,Iris Plus 655
+18,premiere pro,Iris Plus 650
+19,premiere pro,Iris Plus 640
+20,premiere pro,Iris Plus 645
+21,premiere pro,RTX2070
+22,premiere pro,RTX2060
+23,premiere pro,GTX1080
+24,premiere pro,GTX1070
+25,premiere pro,GTX1660 Ti
+26,premiere pro,GTX1060
+27,premiere pro,GTX1050 Ti
+28,premiere pro,GTX1650
+29,premiere pro,GTX1050
+30,premiere pro,GTX980M
+31,premiere pro,GTX970M
+32,illustrator,HD 6000
+33,illustrator,HD 5500
+34,illustrator,HD 5300
+35,illustrator,HD 5000
+36,illustrator,HD 4600
+37,illustrator,Iris Pro 5200
+38,illustrator,Iris 6100
+39,illustrator,RTX2080
+40,illustrator,RTX2070
+41,illustrator,RTX2060
+42,illustrator,GTX1080
+43,illustrator,GTX1070
+44,illustrator,GTX1660 Ti
+45,illustrator,GTX1060
+46,illustrator,GTX1050 Ti
+47,illustrator,GTX1650
+48,illustrator,GTX1050
+49,illustrator,GTX980M
+50,illustrator,GTX970M
+51,illustrator,GTX960M
+52,illustrator,GTX950M
+53,illustrator,GTX850M

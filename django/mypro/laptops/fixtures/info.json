@@ -1,0 +1,11 @@
+[
+    {
+        "pk": 1,
+        "model": "laptops.Info",
+        "fields": {
+            "laptop_id": 1,
+            "program_id": 1,
+            "spec_id": 1
+        }
+    }
+]

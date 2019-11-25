@@ -1,0 +1,2162 @@
+[
+    {
+        "pk": 0,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 15ZD990-VX50K",
+            "Price": "1,266,000\uc6d0"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFX255GS \uc544\ubc29\uac00\ub974\ub4dc",
+            "Price": "1,206,000\uc6d0"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uc6b8\ud2b8\ub77cPC 15UD590-GX50K",
+            "Price": "769,000\uc6d0"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF75 Thin 9SC-i7 \ud30c\uc6cc\ud329 \ud504\ub85c WIN10",
+            "Price": "1,158,000\uc6d0"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 15ZD990-VX50K WIN10",
+            "Price": "1,331,000\uc6d0"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 14ZD990-GX30K",
+            "Price": "901,000\uc6d0"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 17ZD990-VX5BK",
+            "Price": "1,314,000\uc6d0"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Prime Edition",
+            "Price": "1,364,000\uc6d0"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uc6b8\ud2b8\ub77cPC 15U590-GA56K",
+            "Price": "946,000\uc6d0"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uc6b8\ud2b8\ub77cPC 15UD590-GX50K WIN10",
+            "Price": "886,000\uc6d0"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBE-X716A",
+            "Price": "1,713,000\uc6d0"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GP\uc2dc\ub9ac\uc988 GP75 Leopard 9SD",
+            "Price": "1,331,000\uc6d0"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 17ZD990-VX50K",
+            "Price": "1,344,000\uc6d0"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBV-A58A WIN10",
+            "Price": "1,143,000\uc6d0"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 \ub178\ud2b8\ubd815 NT500R5Z-K58A",
+            "Price": "560,000\uc6d0"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Blade Edition",
+            "Price": "1,490,000\uc6d0"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc L340-15IRH i5 LEGEND",
+            "Price": "730,000\uc6d0"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 \ub178\ud2b8\ubd815 NT500R5Z-K58BA",
+            "Price": "560,000\uc6d0"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y530-15ICH i5 Special",
+            "Price": "639,000\uc6d0"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS65 Stealth 9SD",
+            "Price": "1,523,000\uc6d0"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "APPLE \ub9e5\ubd81\ud504\ub85c 2019\ub144\ud615 MV912KH/A",
+            "Price": "2,780,000\uc6d0"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFX255GSW \uc544\ubc29\uac00\ub974\ub4dc",
+            "Price": "1,336,000\uc6d0"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "APPLE \ub9e5\ubd81\ud504\ub85c 2019\ub144\ud615 MV932KH/A",
+            "Price": "2,761,000\uc6d0"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 14ZD990-GX50K",
+            "Price": "1,237,000\uc6d0"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBV-G58A WIN10",
+            "Price": "1,264,000\uc6d0"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 17ZD990-VX70K",
+            "Price": "1,506,000\uc6d0"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 15ZD990-GX30K",
+            "Price": "1,002,000\uc6d0"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "DELL \uc778\uc2a4\ud53c\ub860 15 7590 D001I759003KR",
+            "Price": "1,634,000\uc6d0"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GL\uc2dc\ub9ac\uc988 GL65 9SD",
+            "Price": "1,145,000\uc6d0"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF63 Thin 9SC-i7",
+            "Price": "984,000\uc6d0"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 15Z990-VA7IK",
+            "Price": "1,621,000\uc6d0"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd81 Pen S NT950SBE-X716",
+            "Price": "2,021,000\uc6d0"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "APPLE \ub9e5\ubd81\ud504\ub85c 2019\ub144\ud615 MV902KH/A",
+            "Price": "2,374,000\uc6d0"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS \ube44\ubcf4\ubd81 15 R564DA-BQ774",
+            "Price": "567,000\uc6d0"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster X5967T",
+            "Price": "1,159,000\uc6d0"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-15API R5",
+            "Price": "498,000\uc6d0"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "APPLE \ub9e5\ubd81\ud504\ub85c 2019\ub144\ud615 MV972KH/A",
+            "Price": "1,976,000\uc6d0"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS X571GT-BN241",
+            "Price": "1,194,000\uc6d0"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 PS63 \ubaa8\ub358 8RC-i5",
+            "Price": "981,000\uc6d0"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 Odyssey NT850XBC-X719A",
+            "Price": "2,133,000\uc6d0"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd81 Pen S NT950SBE-X716A",
+            "Price": "1,814,000\uc6d0"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "Razer BLADE Pro 17 9Gen R80",
+            "Price": "4,437,000\uc6d0"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uc6b8\ud2b8\ub77cPC 15UD590-KX70K",
+            "Price": "976,000\uc6d0"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 \uc62c\ub370\uc774\ub871 TFX255W",
+            "Price": "1,023,000\uc6d0"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 15Z990-HA76K",
+            "Price": "1,842,000\uc6d0"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 17Z990-VA76K",
+            "Price": "1,860,000\uc6d0"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS ROG Strix G G731GU-EV005",
+            "Price": "1,350,000\uc6d0"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 \uc6b8\ud2b8\ub77c\uae30\uc5b4 17UD790-PX76K",
+            "Price": "1,635,000\uc6d0"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS \ube44\ubcf4\ubd81 17 D712DA-AU071",
+            "Price": "657,000\uc6d0"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 15ZD990-VX70K",
+            "Price": "1,400,000\uc6d0"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 \uc5b8\ub354\ucf00\uc774\uc9c0 TFX245W",
+            "Price": "909,000\uc6d0"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uc6b8\ud2b8\ub77cPC 15U590-KA70K",
+            "Price": "1,188,000\uc6d0"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uc6b8\ud2b8\ub77cPC 15UD590-GX30K",
+            "Price": "580,000\uc6d0"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 15ZD990-VX5BK",
+            "Price": "1,243,000\uc6d0"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS X571GT-BN241T",
+            "Price": "1,319,000\uc6d0"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "HP \ud30c\ube4c\ub9ac\uc628 15-cs2084TX WIN10",
+            "Price": "758,000\uc6d0"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "HP 15s-du0069tu",
+            "Price": "397,620\uc6d0"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-14IWL i7 Slim MX",
+            "Price": "632,000\uc6d0"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc8fc\uc5f0\ud14c\ud06c \ub9ac\uc624\ub098\uc778 L5SH-16S",
+            "Price": "797,990\uc6d0"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 14Z990-GA5IK",
+            "Price": "1,383,000\uc6d0"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 \uc6b8\ud2b8\ub77c\uae30\uc5b4 15GD880-SX76K",
+            "Price": "1,256,000\uc6d0"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd81 Pen S NT950SBE-X58A",
+            "Price": "1,582,000\uc6d0"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 15Z990-VA5SK",
+            "Price": "1,417,000\uc6d0"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S145-15 CORE i CLASS",
+            "Price": "487,000\uc6d0"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "APPLE \ub9e5\ubd81\ud504\ub85c 2019\ub144\ud615 MV922KH/A",
+            "Price": "2,394,000\uc6d0"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "HP \ud30c\ube4c\ub9ac\uc628 15-cs2084TX",
+            "Price": "697,000\uc6d0"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y545-15 i7",
+            "Price": "1,299,000\uc6d0"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "HP 15-db1001AU",
+            "Price": "468,000\uc6d0"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 \uc6b8\ud2b8\ub77c\uae30\uc5b4 GT 15UD780-PX50K",
+            "Price": "1,020,000\uc6d0"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 \ub178\ud2b8\ubd815 metal NT560XAA-X58R",
+            "Price": "913,000\uc6d0"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc8fc\uc5f0\ud14c\ud06c \ub9ac\uc624\ub098\uc778 L7SUXG",
+            "Price": "1,346,000\uc6d0"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "HP 15-db1042au WIN10",
+            "Price": "515,000\uc6d0"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 \ub178\ud2b8\ubd817 NT750XBV-G717A",
+            "Price": "1,299,000\uc6d0"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "APPLE \ub9e5\ubd81\ud504\ub85c 2019\ub144\ud615 MUHP2KH/A",
+            "Price": "1,634,000\uc6d0"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBV-G58A",
+            "Price": "1,230,000\uc6d0"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd81 Pen S NT950SBV-A58A",
+            "Price": "1,351,000\uc6d0"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc C340-14IWL Pen3 Whiskey",
+            "Price": "541,000\uc6d0"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF75 Thin 9SC-i7",
+            "Price": "1,083,000\uc6d0"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS \ube44\ubcf4\ubd81 X560UD-EJ425",
+            "Price": "634,000\uc6d0"
+        }
+    },
+    {
+        "pk": 79,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster X7967T",
+            "Price": "1,254,000\uc6d0"
+        }
+    },
+    {
+        "pk": 80,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS \ube44\ubcf4\ubd81 X512DA-BQ475",
+            "Price": "479,000\uc6d0"
+        }
+    },
+    {
+        "pk": 81,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GP\uc2dc\ub9ac\uc988 GP75 Leopard 9SD \uc5bc\ud2f0\ubc0b \ud30c\uc6cc\ud329 \ud504\ub85c",
+            "Price": "1,517,000\uc6d0"
+        }
+    },
+    {
+        "pk": 82,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 \ub178\ud2b8\ubd813 NT340XAZ-AD1A",
+            "Price": "299,000\uc6d0"
+        }
+    },
+    {
+        "pk": 83,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT930XBV-A58A",
+            "Price": "1,069,000\uc6d0"
+        }
+    },
+    {
+        "pk": 84,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "HP \ud30c\ube4c\ub9ac\uc628 15-cs1010tu WIN10",
+            "Price": "599,000\uc6d0"
+        }
+    },
+    {
+        "pk": 85,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT930XBE-K717A",
+            "Price": "1,494,000\uc6d0"
+        }
+    },
+    {
+        "pk": 86,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Blade 2060",
+            "Price": "1,413,000\uc6d0"
+        }
+    },
+    {
+        "pk": 87,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 Odyssey Z NT850XAC-X716",
+            "Price": "1,616,000\uc6d0"
+        }
+    },
+    {
+        "pk": 88,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster EX7977K",
+            "Price": "2,703,000\uc6d0"
+        }
+    },
+    {
+        "pk": 89,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 2in1 14T990-GA50K",
+            "Price": "1,449,000\uc6d0"
+        }
+    },
+    {
+        "pk": 90,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ACER \ud2b8\ub798\ube14\uba54\uc774\ud2b8 X5 TMX514-51-586C",
+            "Price": "709,000\uc6d0"
+        }
+    },
+    {
+        "pk": 91,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF75 Thin 9SD",
+            "Price": "1,294,000\uc6d0"
+        }
+    },
+    {
+        "pk": 92,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S145-15 W CLASSIC-S",
+            "Price": "438,000\uc6d0"
+        }
+    },
+    {
+        "pk": 93,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 \uc5b8\ub354\ucf00\uc774\uc9c0 TFX242",
+            "Price": "719,000\uc6d0"
+        }
+    },
+    {
+        "pk": 94,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 \uc62c\ub370\uc774\ub871 TFX255",
+            "Price": "879,000\uc6d0"
+        }
+    },
+    {
+        "pk": 95,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uc6b8\ud2b8\ub77cPC 15UD490-GX36K",
+            "Price": "436,000\uc6d0"
+        }
+    },
+    {
+        "pk": 96,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ACER Swift5 SF515-51T i5 SMART",
+            "Price": "1,050,000\uc6d0"
+        }
+    },
+    {
+        "pk": 97,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Prime",
+            "Price": "1,166,000\uc6d0"
+        }
+    },
+    {
+        "pk": 98,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GE\uc2dc\ub9ac\uc988 GE75 \ub808\uc774\ub354 8SF \ud30c\uc6cc\ud329 \ud504\ub85c",
+            "Price": "1,751,000\uc6d0"
+        }
+    },
+    {
+        "pk": 99,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 H58 DGA2",
+            "Price": "472,000\uc6d0"
+        }
+    },
+    {
+        "pk": 100,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 \uc5b8\ub354\ucf00\uc774\uc9c0 TFX245",
+            "Price": "848,000\uc6d0"
+        }
+    },
+    {
+        "pk": 101,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GL\uc2dc\ub9ac\uc988 GL63 9SE \uc288\ud37c \uc5bc\ud2f0\ubc0b \ud504\ub85c WIN10",
+            "Price": "1,787,000\uc6d0"
+        }
+    },
+    {
+        "pk": 102,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 PS42 \ubaa8\ub358 8MO-i7",
+            "Price": "790,000\uc6d0"
+        }
+    },
+    {
+        "pk": 103,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y530-15ICH i7 1060 Dark Edition",
+            "Price": "1,336,000\uc6d0"
+        }
+    },
+    {
+        "pk": 104,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GP\uc2dc\ub9ac\uc988 GP65 Leopard 9SD \uc5bc\ud2f0\ubc0b \ud30c\uc6cc\ud329 \ud504\ub85c",
+            "Price": "1,496,000\uc6d0"
+        }
+    },
+    {
+        "pk": 105,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y545-15 i7 WIN10",
+            "Price": "1,468,000\uc6d0"
+        }
+    },
+    {
+        "pk": 106,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S145-15 i3 W CLASSIC",
+            "Price": "396,000\uc6d0"
+        }
+    },
+    {
+        "pk": 107,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF63 Thin 9SC-i7 \ud30c\uc6cc\ud329 \ud504\ub85c WIN10",
+            "Price": "1,110,000\uc6d0"
+        }
+    },
+    {
+        "pk": 108,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 \ub178\ud2b8\ubd817 NT730XBV-A28A",
+            "Price": "655,000\uc6d0"
+        }
+    },
+    {
+        "pk": 109,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 \ub178\ud2b8\ubd817 Force NT760XBV-G78A",
+            "Price": "1,433,000\uc6d0"
+        }
+    },
+    {
+        "pk": 110,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "APPLE \ub9e5\ubd81\ud504\ub85c 2019\ub144\ud615 MV962KH/A",
+            "Price": "1,758,000\uc6d0"
+        }
+    },
+    {
+        "pk": 111,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF65 Thin 9SD",
+            "Price": "1,179,000\uc6d0"
+        }
+    },
+    {
+        "pk": 112,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 V130-15IKB 81HNA00CKR",
+            "Price": "288,000\uc6d0"
+        }
+    },
+    {
+        "pk": 113,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc L340-15IRH i7 LEGEND W10",
+            "Price": "1,017,000\uc6d0"
+        }
+    },
+    {
+        "pk": 114,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF63 Thin 9SC-i7 \ud30c\uc6cc\ud329 \ud504\ub85c",
+            "Price": "1,115,000\uc6d0"
+        }
+    },
+    {
+        "pk": 115,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 H58 DGA3",
+            "Price": "539,000\uc6d0"
+        }
+    },
+    {
+        "pk": 116,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc8fc\uc5f0\ud14c\ud06c \uce90\ub9ac\ubd81T J3GP",
+            "Price": "328,800\uc6d0"
+        }
+    },
+    {
+        "pk": 117,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd81 Pen S NT930SBE-K716A",
+            "Price": "1,748,000\uc6d0"
+        }
+    },
+    {
+        "pk": 118,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd81 Pen S NT930SBE-K58A",
+            "Price": "1,436,000\uc6d0"
+        }
+    },
+    {
+        "pk": 119,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT930XBV-A38A",
+            "Price": "863,000\uc6d0"
+        }
+    },
+    {
+        "pk": 120,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S540-15 1650 Booster i5 WIN10",
+            "Price": "1,008,000\uc6d0"
+        }
+    },
+    {
+        "pk": 121,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd81 Pen S NT930SBE-K38A",
+            "Price": "1,260,000\uc6d0"
+        }
+    },
+    {
+        "pk": 122,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc8fc\uc5f0\ud14c\ud06c \ub9ac\uc624\ub098\uc778 L7SRX",
+            "Price": "1,254,990\uc6d0"
+        }
+    },
+    {
+        "pk": 123,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "HP 14s-cf0106tu",
+            "Price": "389,000\uc6d0"
+        }
+    },
+    {
+        "pk": 124,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG176W",
+            "Price": "1,236,000\uc6d0"
+        }
+    },
+    {
+        "pk": 125,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 PS42 8RC-i5 \ubaa8\ub358",
+            "Price": "1,051,000\uc6d0"
+        }
+    },
+    {
+        "pk": 126,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG2767 ALLIN",
+            "Price": "1,545,000\uc6d0"
+        }
+    },
+    {
+        "pk": 127,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2017 \uc6b8\ud2b8\ub77cPC 13UD580-LX10K WIN10",
+            "Price": "554,000\uc6d0"
+        }
+    },
+    {
+        "pk": 128,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "GIGABYTE AERO 15X V10 UHD WIN10",
+            "Price": "2,900,000\uc6d0"
+        }
+    },
+    {
+        "pk": 129,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 PS63 \ubaa8\ub358 8RC-i7",
+            "Price": "1,228,000\uc6d0"
+        }
+    },
+    {
+        "pk": 130,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GL\uc2dc\ub9ac\uc988 GL65 9SC",
+            "Price": "1,085,000\uc6d0"
+        }
+    },
+    {
+        "pk": 131,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 V130-15IKB 81HNA02PKR",
+            "Price": "495,000\uc6d0"
+        }
+    },
+    {
+        "pk": 132,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBV-A58WA",
+            "Price": "1,188,000\uc6d0"
+        }
+    },
+    {
+        "pk": 133,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBE-K38",
+            "Price": "1,196,000\uc6d0"
+        }
+    },
+    {
+        "pk": 134,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GE\uc2dc\ub9ac\uc988 GE75 \ub808\uc774\ub354 9SF",
+            "Price": "2,178,000\uc6d0"
+        }
+    },
+    {
+        "pk": 135,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-14API Picasso R5",
+            "Price": "488,000\uc6d0"
+        }
+    },
+    {
+        "pk": 136,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF63 Thin 9SC-i5",
+            "Price": "845,000\uc6d0"
+        }
+    },
+    {
+        "pk": 137,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS \ube44\ubcf4\ubd81 S531FL-BQ257",
+            "Price": "681,000\uc6d0"
+        }
+    },
+    {
+        "pk": 138,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S145-15 i7 W CLASSIC",
+            "Price": "564,000\uc6d0"
+        }
+    },
+    {
+        "pk": 139,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 P65 \ud06c\ub9ac\uc5d0\uc774\ud130 9SE \ud30c\uc6cc\ud329 \ud504\ub85c",
+            "Price": "1,929,000\uc6d0"
+        }
+    },
+    {
+        "pk": 140,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2018 \ub178\ud2b8\ubd81 Pen NT950QAA-X58A",
+            "Price": "1,186,000\uc6d0"
+        }
+    },
+    {
+        "pk": 141,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2018 \ub178\ud2b8\ubd819 Always NT900X3T-K716A",
+            "Price": "1,711,000\uc6d0"
+        }
+    },
+    {
+        "pk": 142,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ubaa8\ub358\uc2dc\ub9ac\uc988 \ubaa8\ub35814 A10M-i7",
+            "Price": "839,000\uc6d0"
+        }
+    },
+    {
+        "pk": 143,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF63 8RC-i5 WIN10",
+            "Price": "894,000\uc6d0"
+        }
+    },
+    {
+        "pk": 144,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc L340-17IRH I7 LEGEND",
+            "Price": "1,056,000\uc6d0"
+        }
+    },
+    {
+        "pk": 145,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 P75 \ud06c\ub9ac\uc5d0\uc774\ud130 9SE \ud30c\uc6cc\ud329 \ud504\ub85c",
+            "Price": "1,965,000\uc6d0"
+        }
+    },
+    {
+        "pk": 146,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS TUF FX505DU-AL042",
+            "Price": "1,188,000\uc6d0"
+        }
+    },
+    {
+        "pk": 147,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster XH797L",
+            "Price": "1,069,000\uc6d0"
+        }
+    },
+    {
+        "pk": 148,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GT\uc2dc\ub9ac\uc988 GT63 Titan 8SF",
+            "Price": "1,909,000\uc6d0"
+        }
+    },
+    {
+        "pk": 149,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG175W",
+            "Price": "1,087,000\uc6d0"
+        }
+    },
+    {
+        "pk": 150,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS75 Stealth 8SF \uc288\ud37c \ud504\ub85c",
+            "Price": "1,878,000\uc6d0"
+        }
+    },
+    {
+        "pk": 151,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "DELL XPS 15 7590 D679X7590104KR",
+            "Price": "2,985,000\uc6d0"
+        }
+    },
+    {
+        "pk": 152,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster X7967TW",
+            "Price": "1,378,000\uc6d0"
+        }
+    },
+    {
+        "pk": 153,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-14IWL i5 Slim WIN10",
+            "Price": "596,000\uc6d0"
+        }
+    },
+    {
+        "pk": 154,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG276RT",
+            "Price": "1,425,000\uc6d0"
+        }
+    },
+    {
+        "pk": 155,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S540-14 Mighty i7 WIN10",
+            "Price": "920,000\uc6d0"
+        }
+    },
+    {
+        "pk": 156,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS \ube44\ubcf4\ubd81 S531FL-BQ258",
+            "Price": "680,000\uc6d0"
+        }
+    },
+    {
+        "pk": 157,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc8fc\uc5f0\ud14c\ud06c \ub9ac\uc624\ub098\uc778 L7SH-16S",
+            "Price": "854,990\uc6d0"
+        }
+    },
+    {
+        "pk": 158,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Blade",
+            "Price": "1,269,000\uc6d0"
+        }
+    },
+    {
+        "pk": 159,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uc6b8\ud2b8\ub77cPC 15UD590-KX50K",
+            "Price": "786,000\uc6d0"
+        }
+    },
+    {
+        "pk": 160,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 P75 \ud06c\ub9ac\uc5d0\uc774\ud130 9SE \ud53c\ubc84 \ud504\ub85c",
+            "Price": "2,028,000\uc6d0"
+        }
+    },
+    {
+        "pk": 161,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GE\uc2dc\ub9ac\uc988 GE75 \ub808\uc774\ub354 8SF WIN10",
+            "Price": "1,749,000\uc6d0"
+        }
+    },
+    {
+        "pk": 162,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFX255GSWP \uc544\ubc29\uac00\ub974\ub4dc",
+            "Price": "1,423,000\uc6d0"
+        }
+    },
+    {
+        "pk": 163,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc 330-15ICH i7 HEXA WIN10",
+            "Price": "833,000\uc6d0"
+        }
+    },
+    {
+        "pk": 164,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "DELL XPS 15 7590 D679X7590105KR",
+            "Price": "3,324,000\uc6d0"
+        }
+    },
+    {
+        "pk": 165,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-15IWL i7 Platinum MX",
+            "Price": "680,000\uc6d0"
+        }
+    },
+    {
+        "pk": 166,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS75 Stealth 9SD",
+            "Price": "1,708,000\uc6d0"
+        }
+    },
+    {
+        "pk": 167,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-14IWL i5 Slim MX WIN10",
+            "Price": "515,000\uc6d0"
+        }
+    },
+    {
+        "pk": 168,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GE\uc2dc\ub9ac\uc988 GE65 \ub808\uc774\ub354 9SF",
+            "Price": "2,428,000\uc6d0"
+        }
+    },
+    {
+        "pk": 169,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS \ube44\ubcf4\ubd81 S15 S530FN-BQ163",
+            "Price": "677,000\uc6d0"
+        }
+    },
+    {
+        "pk": 170,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster EX7979KF",
+            "Price": "2,818,000\uc6d0"
+        }
+    },
+    {
+        "pk": 171,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 PS63 \ubaa8\ub358 8SC-i7",
+            "Price": "1,330,000\uc6d0"
+        }
+    },
+    {
+        "pk": 172,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "Razer BLADE 15 Base 9Gen R60",
+            "Price": "2,790,000\uc6d0"
+        }
+    },
+    {
+        "pk": 173,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ubaa8\ub358\uc2dc\ub9ac\uc988 \ubaa8\ub35814 A10M-i5",
+            "Price": "749,000\uc6d0"
+        }
+    },
+    {
+        "pk": 174,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GE\uc2dc\ub9ac\uc988 GE63 \ub808\uc774\ub354 RGB 8SE",
+            "Price": "1,370,000\uc6d0"
+        }
+    },
+    {
+        "pk": 175,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "APPLE \ub9e5\ubd81\ud504\ub85c 2019\ub144\ud615 MUHN2KH/A CTO",
+            "Price": "1,522,000\uc6d0"
+        }
+    },
+    {
+        "pk": 176,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ACER \uc544\uc2a4\ud30c\uc774\uc5b4 A514-52",
+            "Price": "582,000\uc6d0"
+        }
+    },
+    {
+        "pk": 177,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 \uc5b8\ub354\ucf00\uc774\uc9c0 TFX242W",
+            "Price": "849,000\uc6d0"
+        }
+    },
+    {
+        "pk": 178,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "HP \ud504\ub85c\ubd81 650 G5-7XU352AT",
+            "Price": "1,723,000\uc6d0"
+        }
+    },
+    {
+        "pk": 179,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Prime W10P",
+            "Price": "1,288,000\uc6d0"
+        }
+    },
+    {
+        "pk": 180,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBV-A58A",
+            "Price": "1,199,000\uc6d0"
+        }
+    },
+    {
+        "pk": 181,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFX252",
+            "Price": "772,000\uc6d0"
+        }
+    },
+    {
+        "pk": 182,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 YOGA BOOK C930 ZA3S0026KR",
+            "Price": "1,099,000\uc6d0"
+        }
+    },
+    {
+        "pk": 183,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT930XBV-A58WA",
+            "Price": "1,122,000\uc6d0"
+        }
+    },
+    {
+        "pk": 184,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS \ube44\ubcf4\ubd81 S531FL-BQ258T",
+            "Price": "820,000\uc6d0"
+        }
+    },
+    {
+        "pk": 185,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG255X",
+            "Price": "1,135,000\uc6d0"
+        }
+    },
+    {
+        "pk": 186,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc L340-17IRH I5 LEGEND",
+            "Price": "870,000\uc6d0"
+        }
+    },
+    {
+        "pk": 187,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ubaa8\ub358\uc2dc\ub9ac\uc988 \ubaa8\ub35814 A10M-i7 \ud30c\uc6cc\ud329 \ud504\ub85c",
+            "Price": "1,079,000\uc6d0"
+        }
+    },
+    {
+        "pk": 188,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Prime 2060",
+            "Price": "1,267,000\uc6d0"
+        }
+    },
+    {
+        "pk": 189,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GF\uc2dc\ub9ac\uc988 GF63 Thin 9RC-i7",
+            "Price": "898,000\uc6d0"
+        }
+    },
+    {
+        "pk": 190,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GE\uc2dc\ub9ac\uc988 GE65 \ub808\uc774\ub354 9SF WIN10",
+            "Price": "2,592,000\uc6d0"
+        }
+    },
+    {
+        "pk": 191,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "Microsoft \uc11c\ud53c\uc2a4 \ub7a9\ud0d12 i5",
+            "Price": "1,272,000\uc6d0"
+        }
+    },
+    {
+        "pk": 192,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBV-A38A",
+            "Price": "1,116,000\uc6d0"
+        }
+    },
+    {
+        "pk": 193,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc C340-14IWL Pen5 Whiskey",
+            "Price": "830,000\uc6d0"
+        }
+    },
+    {
+        "pk": 194,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 PS63 \ubaa8\ub358 8SC-i5",
+            "Price": "1,245,000\uc6d0"
+        }
+    },
+    {
+        "pk": 195,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-15IWL Platinum",
+            "Price": "514,000\uc6d0"
+        }
+    },
+    {
+        "pk": 196,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc 530S-14 MIGHTY i7 WIN10",
+            "Price": "779,000\uc6d0"
+        }
+    },
+    {
+        "pk": 197,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GP\uc2dc\ub9ac\uc988 GP75 Leopard 9SD \uc288\ud37c \ud504\ub85c",
+            "Price": "1,550,000\uc6d0"
+        }
+    },
+    {
+        "pk": 198,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 \ub178\ud2b8\ubd813 NT340XAZ-AD2A",
+            "Price": "337,000\uc6d0"
+        }
+    },
+    {
+        "pk": 199,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG175",
+            "Price": "964,000\uc6d0"
+        }
+    },
+    {
+        "pk": 200,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS ROG Strix G G531GU-AL001",
+            "Price": "1,352,000\uc6d0"
+        }
+    },
+    {
+        "pk": 201,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S540-14 Mighty i5",
+            "Price": "667,000\uc6d0"
+        }
+    },
+    {
+        "pk": 202,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GP\uc2dc\ub9ac\uc988 GP75 Leopard 9SE \uc5bc\ud2f0\ubc0b \ud30c\uc6cc\ud329 \ud504\ub85c",
+            "Price": "1,814,000\uc6d0"
+        }
+    },
+    {
+        "pk": 203,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 P75 \ud06c\ub9ac\uc5d0\uc774\ud130 9SD",
+            "Price": "1,569,000\uc6d0"
+        }
+    },
+    {
+        "pk": 204,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc53d\ud06c\ud328\ub4dc T490s 20NXS02M00",
+            "Price": "1,170,000\uc6d0"
+        }
+    },
+    {
+        "pk": 205,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster X5967TW",
+            "Price": "1,285,000\uc6d0"
+        }
+    },
+    {
+        "pk": 206,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 \ub178\ud2b8\ubd819 metal NT900K3Z-KD3A",
+            "Price": "798,000\uc6d0"
+        }
+    },
+    {
+        "pk": 207,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-17IRH i7 Blade 2060",
+            "Price": "1,602,000\uc6d0"
+        }
+    },
+    {
+        "pk": 208,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS75 Stealth 9SE",
+            "Price": "2,069,000\uc6d0"
+        }
+    },
+    {
+        "pk": 209,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 Odyssey NT850XBC-X716",
+            "Price": "2,232,000\uc6d0"
+        }
+    },
+    {
+        "pk": 210,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 PS42 8RC-i7 \ubaa8\ub358",
+            "Price": "1,191,000\uc6d0"
+        }
+    },
+    {
+        "pk": 211,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GP\uc2dc\ub9ac\uc988 GP75 Leopard 9SE",
+            "Price": "1,623,000\uc6d0"
+        }
+    },
+    {
+        "pk": 212,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG155W",
+            "Price": "1,089,000\uc6d0"
+        }
+    },
+    {
+        "pk": 213,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-15IWL i7 Platinum MX WIN10",
+            "Price": "811,000\uc6d0"
+        }
+    },
+    {
+        "pk": 214,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S540-14 Mighty i5 WIN10",
+            "Price": "807,000\uc6d0"
+        }
+    },
+    {
+        "pk": 215,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS75 Stealth 8SF",
+            "Price": "1,681,000\uc6d0"
+        }
+    },
+    {
+        "pk": 216,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-14IWL i5 Slim",
+            "Price": "537,000\uc6d0"
+        }
+    },
+    {
+        "pk": 217,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2019 \uadf8\ub7a8 15ZD990-HX56K WIN10",
+            "Price": "1,487,000\uc6d0"
+        }
+    },
+    {
+        "pk": 218,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc L340-15IRH i5 LEGEND W10",
+            "Price": "839,000\uc6d0"
+        }
+    },
+    {
+        "pk": 219,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-14IWL i5 Slim MX",
+            "Price": "488,000\uc6d0"
+        }
+    },
+    {
+        "pk": 220,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y545-15 i7 2060",
+            "Price": "1,429,000\uc6d0"
+        }
+    },
+    {
+        "pk": 221,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS65 Stealth 8SF",
+            "Price": "1,576,000\uc6d0"
+        }
+    },
+    {
+        "pk": 222,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG256ZT",
+            "Price": "1,352,000\uc6d0"
+        }
+    },
+    {
+        "pk": 223,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2018 \ub178\ud2b8\ubd819 Always NT900X3V-A78A",
+            "Price": "1,217,000\uc6d0"
+        }
+    },
+    {
+        "pk": 224,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc 330-15ICH i5 Quad",
+            "Price": "697,000\uc6d0"
+        }
+    },
+    {
+        "pk": 225,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc C340-14IWL Pen7 Whiskey MX",
+            "Price": "1,070,000\uc6d0"
+        }
+    },
+    {
+        "pk": 226,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Prime 2060 W10P",
+            "Price": "1,416,000\uc6d0"
+        }
+    },
+    {
+        "pk": 227,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "GIGABYTE New AERO 15X i7 OLED WIN10",
+            "Price": "2,815,000\uc6d0"
+        }
+    },
+    {
+        "pk": 228,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "ASUS \ube44\ubcf4\ubd81 S15 S530FN-BQ164T",
+            "Price": "889,000\uc6d0"
+        }
+    },
+    {
+        "pk": 229,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 YOGA S940-14IWL 81Q70020KR",
+            "Price": "1,650,000\uc6d0"
+        }
+    },
+    {
+        "pk": 230,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd81 Pen S NT930SBE-KT3W",
+            "Price": "1,301,000\uc6d0"
+        }
+    },
+    {
+        "pk": 231,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster EX7989KFW",
+            "Price": "3,542,000\uc6d0"
+        }
+    },
+    {
+        "pk": 232,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 U38 ForceRecon 6427S",
+            "Price": "385,000\uc6d0"
+        }
+    },
+    {
+        "pk": 233,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster X5957",
+            "Price": "973,000\uc6d0"
+        }
+    },
+    {
+        "pk": 234,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "HP 15s-du0074tu",
+            "Price": "577,000\uc6d0"
+        }
+    },
+    {
+        "pk": 235,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2018 \ub178\ud2b8\ubd81 Pen NT930QAA-K30A",
+            "Price": "1,119,000\uc6d0"
+        }
+    },
+    {
+        "pk": 236,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS65 Stealth 8SF WIN10",
+            "Price": "1,658,000\uc6d0"
+        }
+    },
+    {
+        "pk": 237,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc8fc\uc5f0\ud14c\ud06c \ub9ac\uc624\ub098\uc778 L7SH-144S",
+            "Price": "911,990\uc6d0"
+        }
+    },
+    {
+        "pk": 238,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "Razer BLADE 15 Base 9Gen G1660Ti",
+            "Price": "2,471,000\uc6d0"
+        }
+    },
+    {
+        "pk": 239,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc53d\ud06c\ud328\ub4dc T590 20N4S01X00",
+            "Price": "1,610,000\uc6d0"
+        }
+    },
+    {
+        "pk": 240,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 BossMonster EH6977",
+            "Price": "1,669,000\uc6d0"
+        }
+    },
+    {
+        "pk": 241,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBV-A28A",
+            "Price": "890,000\uc6d0"
+        }
+    },
+    {
+        "pk": 242,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Blade W10P",
+            "Price": "1,364,000\uc6d0"
+        }
+    },
+    {
+        "pk": 243,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 YOGA S730-13IWL 81J0001DKR",
+            "Price": "1,100,000\uc6d0"
+        }
+    },
+    {
+        "pk": 244,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS75 Stealth 8SF WIN10",
+            "Price": "1,743,000\uc6d0"
+        }
+    },
+    {
+        "pk": 245,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "LG\uc804\uc790 2018 \uadf8\ub7a8 13ZD980-GX30K",
+            "Price": "821,000\uc6d0"
+        }
+    },
+    {
+        "pk": 246,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc 530S-15IKBR i7 SUPREME",
+            "Price": "682,000\uc6d0"
+        }
+    },
+    {
+        "pk": 247,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS75 Stealth 8SE",
+            "Price": "1,848,000\uc6d0"
+        }
+    },
+    {
+        "pk": 248,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\uc0bc\uc131\uc804\uc790 2019 \ub178\ud2b8\ubd819 Always NT950XBE-K717A",
+            "Price": "1,854,000\uc6d0"
+        }
+    },
+    {
+        "pk": 249,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc C340-14API R3 Pen Picasso",
+            "Price": "569,000\uc6d0"
+        }
+    },
+    {
+        "pk": 250,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S540-15 Raise i5",
+            "Price": "747,000\uc6d0"
+        }
+    },
+    {
+        "pk": 251,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-17IRH i7 Blade 2060 W10P",
+            "Price": "1,736,000\uc6d0"
+        }
+    },
+    {
+        "pk": 252,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S540-15 1650 Booster i5",
+            "Price": "917,000\uc6d0"
+        }
+    },
+    {
+        "pk": 253,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc53d\ud06c\ud328\ub4dc T490 20N2S03100",
+            "Price": "1,194,000\uc6d0"
+        }
+    },
+    {
+        "pk": 254,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 EH58 BossMonster STORM81 144",
+            "Price": "909,000\uc6d0"
+        }
+    },
+    {
+        "pk": 255,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc S340-14IWL i5 SLIM PLUS",
+            "Price": "537,000\uc6d0"
+        }
+    },
+    {
+        "pk": 256,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 XH58 BossMonster Hero5400",
+            "Price": "726,000\uc6d0"
+        }
+    },
+    {
+        "pk": 257,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GT\uc2dc\ub9ac\uc988 GT76 Titan DT 9SG",
+            "Price": "4,990,000\uc6d0"
+        }
+    },
+    {
+        "pk": 258,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GS\uc2dc\ub9ac\uc988 GS65 Stealth 8SE",
+            "Price": "1,849,000\uc6d0"
+        }
+    },
+    {
+        "pk": 259,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 P65 \ud06c\ub9ac\uc5d0\uc774\ud130 8RE",
+            "Price": "1,285,000\uc6d0"
+        }
+    },
+    {
+        "pk": 260,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc 330-15ICH i5 Quad WIN10",
+            "Price": "658,000\uc6d0"
+        }
+    },
+    {
+        "pk": 261,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 \uc544\uc774\ub514\uc5b4\ud328\ub4dc 330-17ICH i5 Double Action",
+            "Price": "745,000\uc6d0"
+        }
+    },
+    {
+        "pk": 262,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI \ud504\ub808\uc2a4\ud2f0\uc9c0 P75 \ud06c\ub9ac\uc5d0\uc774\ud130 9SE",
+            "Price": "1,916,000\uc6d0"
+        }
+    },
+    {
+        "pk": 263,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GL\uc2dc\ub9ac\uc988 GL63 8RE \uc5bc\ud2f0\ubc0b \ud30c\uc6cc\ud329 \ud504\ub85c",
+            "Price": "1,183,000\uc6d0"
+        }
+    },
+    {
+        "pk": 264,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "MSI GL\uc2dc\ub9ac\uc988 GL63 9SE \ud06c\ub8e8\uc800",
+            "Price": "1,348,000\uc6d0"
+        }
+    },
+    {
+        "pk": 265,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG277S",
+            "Price": "2,019,000\uc6d0"
+        }
+    },
+    {
+        "pk": 266,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFX252W",
+            "Price": "899,000\uc6d0"
+        }
+    },
+    {
+        "pk": 267,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ub808\ub178\ubc84 LEGION Y540-15IRH i7 Blade 2060 W10P",
+            "Price": "1,530,000\uc6d0"
+        }
+    },
+    {
+        "pk": 268,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG255XW",
+            "Price": "1,285,000\uc6d0"
+        }
+    },
+    {
+        "pk": 269,
+        "model": "laptops.Laptop",
+        "fields": {
+            "Name": "\ud55c\uc131\ucef4\ud4e8\ud130 TFG276ST",
+            "Price": "1,450,000\uc6d0"
+        }
+    }
+]
